@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+header {
+    background-image: url(./img/depositphotos_315790286-stock-photo-gray-rat-isolated-on-black.jpg);
+    background-size: cover;
+  background-position: left;
+ padding: 20px;
+  
+  height: 40vh;
+  
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;  
+    
+    
+  }
+
+  a {color: blueviolet;
+    font-family: "Moon Dance", cursive; }
+
+  ul li {
+    display: inline;        
+    margin-right: 10px; 
+        
+  }
+
+  header p{
+    font-family: "Moon Dance", ;
+    font-size: 0.9em;
+    font-weight: bold;
+
+  }
+  h1 {
+    font-family: "Moon Dance", ;
+    color: #c123de;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+    height: 100%;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: aliceblue;
+    font-size: 24px;
+
+}
+
+.cella{
+  background-color: rgb(69, 22, 113);
+
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(118,9,121,1) 35%, rgba(128,0,255,1) 100%);
+border: 3px solid #3c0b97;
+display: inline-block;
+margin: 20px;
+
+  
+}
+
+.cella img {
+  width: 95%;  
+  height: 99%;
+  object-fit: cover;  
+  border-radius: 16px; 
+}
+
+#cell{
+  margin-top: 30px;
+}
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.revealed {
+  opacity: 1;
+  visibility: visible;
+}
+
+#inizia{
+  box-shadow:inset 0px 1px 0px 0px #e184f3;
+	background:linear-gradient(to bottom, #c123de 5%, #a20dbd 100%);
+	background-color:#c123de;
+	border-radius:6px;
+	border:1px solid #a511c0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #9b14b3;
+  margin-top: 30px;
+}
+
+
+ 
+ 
