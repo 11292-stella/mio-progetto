@@ -42,7 +42,7 @@ const iniziaGioco = function () {
     cella.appendChild(img)
   })
 
-  gestisciClick() // Aggancia gli eventi DOPO aver creato le immagini
+  gestisciClick()
 }
 
 let primaScelta = null
